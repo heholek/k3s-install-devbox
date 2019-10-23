@@ -15,6 +15,3 @@ else
     # k3s add to path
     sudo echo "export PATH=/home/developer:$PATH" >> /home/developer/.bashrc
 fi
-
-# k3s add to path
-sudo echo "export PATH=/home/developer:$PATH" >> /home/developer/.bashrc
