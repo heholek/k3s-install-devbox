@@ -1,5 +1,6 @@
 # k3s install and developer association
 sudo wget -O /home/developer/k3s https://github.com/rancher/k3s/releases/download/v0.10.0/k3s
+sudo docker pull ciscodevnet/vs-code-iox-client:latest
 sudo chmod +x /home/developer/k3s
 sudo chown developer /home/developer/k3s
 sudo chgrp developer /home/developer/k3s
