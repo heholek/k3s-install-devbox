@@ -2,6 +2,8 @@
 sudo wget -O /home/developer/k3s https://github.com/rancher/k3s/releases/download/v0.10.0/k3s
 sudo chmod +x /home/developer/k3s
 sudo chown developer /home/developer/k3s
+sudo chgrp developer /home/developer/k3s
+sudo usermod -a -G docker developer
 
 # Make sure BashRC profile exists
 FILE=/home/developer/.bashrc
