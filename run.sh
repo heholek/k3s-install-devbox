@@ -4,6 +4,9 @@ sudo chmod +x /home/developer/k3s
 sudo chown developer /home/developer/k3s
 sudo chgrp developer /home/developer/k3s
 sudo usermod -a -G docker developer
+sudo mkdir /var/lib/rancher
+sudo chown developer /var/lib/rancher
+sudo chgrp developer /var/lib/rancher
 
 # Make sure BashRC profile exists
 FILE=/home/developer/.bashrc
